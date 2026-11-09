@@ -57,15 +57,15 @@
 | **Variant 2: CUDA Unified (No Prefetch/Advise)** | 256 | **0.3546** | **0.2073** | **4.5559** | *\[Insert\]* | 
 |  | 512 | **0.3965** | **0.2599** | **4.2727** | *\[Insert\]* | 
 |  | 1024 | **0.5502** | **0.3368** | **6.6428** | *\[Insert\]* | 
-| **Variant 3: CUDA Prefetch** | 256 | **0.1556** | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 512 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 1024 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-| **Variant 4: CUDA Prefetch + Page Creation** | 256 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 512 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 1024 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-| **Variant 5: CUDA Prefetch + Page + MemAdvise** | 256 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 512 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 1024 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
+| **Variant 3: CUDA Prefetch** | 256 | **0.1556** | **0.1500** | **0.2724** | *\[Insert\]* | 
+|  | 512 | **0.1881** | **0.1864** | **0.2007** | *\[Insert\]* | 
+|  | 1024 | **0.2464** | **0.2443** | **0.2546** | *\[Insert\]* | 
+| **Variant 4: CUDA Prefetch + Page Creation** | 256 | **** | **** | **** | *\[Insert\]* | 
+|  | 512 | **** | **** | **** | *\[Insert\]* | 
+|  | 1024 | **** | **** | **** | *\[Insert\]* | 
+| **Variant 5: CUDA Prefetch + Page + MemAdvise** | 256 | **** | **** | **** | *\[Insert\]* | 
+|  | 512 | **** | **** | **** | *\[Insert\]* | 
+|  | 1024 | **** | **** | **** | *\[Insert\]* | 
 
 #### Table 2: Large Vector Size ($N = 2^{24} = 16,777,216$ elements)
 
@@ -78,9 +78,9 @@
 | **Variant 2: CUDA Unified (No Prefetch/Advise)** | 256 | **6.2073** | **3.5623** | **82.6165** | *\[Insert\]* | 
 |  | 512 | **4.7965** | **2.7451** | **63.9731** | *\[Insert\]* | 
 |  | 1024 | **5.1414** | **2.3982** | **84.5654** | *\[Insert\]* | 
-| **Variant 3: CUDA Prefetch** | 256 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 512 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 1024 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
+| **Variant 3: CUDA Prefetch** | 256 | **2.2942** | **2.2913** | **2.3051** | *\[Insert\]* | 
+|  | 512 | **2.8478** | **2.8428** | **2.8816** | *\[Insert\]* | 
+|  | 1024 | **2.5978** | **2.5936** | **2.6071** | *\[Insert\]* | 
 | **Variant 4: CUDA Prefetch + Page Creation** | 256 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
 |  | 512 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
 |  | 1024 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
@@ -98,9 +98,9 @@
 | **Variant 2: CUDA Unified (No Prefetch/Advise)** | 256 | **3.7318** | **1.4436** | **69.9654** | *\[Insert\]* | 
 |  | 512 | **3.8198** | **1.8071** | **61.9108** | *\[Insert\]* | 
 |  | 1024 | **5.0881** | **2.3956** | **83.0515** | *\[Insert\]* | 
-| **Variant 3: CUDA Prefetch** | 256 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 512 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 1024 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
+| **Variant 3: CUDA Prefetch** | 256 | **1.5808** | **1.5787** | **1.5913** | *\[Insert\]* | 
+|  | 512 | **2.4517** | **2.3791** | **2.5289** | *\[Insert\]* | 
+|  | 1024 | **4.0522** | **4.0455** | **4.0569** | *\[Insert\]* | 
 | **Variant 4: CUDA Prefetch + Page Creation** | 256 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
 |  | 512 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
 |  | 1024 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
