@@ -14,6 +14,7 @@
 * **Historical SIMD Benchmark Sizes ($N$):** $N = 1,003$ (Boundary), $2^{20}, 2^{26}, 2^{27}$ (Max Machine Capacity).
 * **Tested CUDA Block Sizes:** 256, 512, and 1024 threads/block.
 * **Benchmarking Methodology:** 30 execution iterations per kernel, taking the Average, Minimum, and Maximum execution times. Timings are recorded using high-precision host timers (`std::chrono` / `QueryPerformanceCounter`) for C/SIMD baselines and GPU hardware timers (`cudaEvent_t`) for CUDA variants.
+* Project Notebook Link: https://colab.research.google.com/drive/1gl5WeIHh_IoWSQRZvWElBERexvX0hNEU?usp=sharing
 
 ### Group Members & Task Allocation
 | Group Member | Core Responsibilities | Variants / Deliverables | 
