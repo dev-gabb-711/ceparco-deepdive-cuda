@@ -60,9 +60,9 @@
 | **Variant 3: CUDA Prefetch** | 256 | **0.1556** | **0.1500** | **0.2724** | *\[Insert\]* | 
 |  | 512 | **0.1881** | **0.1864** | **0.2007** | *\[Insert\]* | 
 |  | 1024 | **0.2464** | **0.2443** | **0.2546** | *\[Insert\]* | 
-| **Variant 4: CUDA Prefetch + Page Creation** | 256 | **** | **** | **** | *\[Insert\]* | 
-|  | 512 | **** | **** | **** | *\[Insert\]* | 
-|  | 1024 | **** | **** | **** | *\[Insert\]* | 
+| **Variant 4: CUDA Prefetch + Page Creation** | 256 | **0.2254** | **0.2164** | **0.3841** | *\[Insert\]* | 
+|  | 512 | **0.2729** | **0.2703** | **0.2911** | *\[Insert\]* | 
+|  | 1024 | **0.3531** | **0.3502** | **0.3750** | *\[Insert\]* | 
 | **Variant 5: CUDA Prefetch + Page + MemAdvise** | 256 | **** | **** | **** | *\[Insert\]* | 
 |  | 512 | **** | **** | **** | *\[Insert\]* | 
 |  | 1024 | **** | **** | **** | *\[Insert\]* | 
@@ -81,12 +81,12 @@
 | **Variant 3: CUDA Prefetch** | 256 | **2.2942** | **2.2913** | **2.3051** | *\[Insert\]* | 
 |  | 512 | **2.8478** | **2.8428** | **2.8816** | *\[Insert\]* | 
 |  | 1024 | **2.5978** | **2.5936** | **2.6071** | *\[Insert\]* | 
-| **Variant 4: CUDA Prefetch + Page Creation** | 256 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 512 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 1024 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-| **Variant 5: CUDA Prefetch + Page + MemAdvise** | 256 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 512 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 1024 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
+| **Variant 4: CUDA Prefetch + Page Creation** | 256 | **** | **** | **** | *\[Insert\]* | 
+|  | 512 | **** | **** | **** | *\[Insert\]* | 
+|  | 1024 | **** | **** | **** | *\[Insert\]* | 
+| **Variant 5: CUDA Prefetch + Page + MemAdvise** | 256 | **** | **** | **** | *\[Insert\]* | 
+|  | 512 | **** | **** | **** | *\[Insert\]* | 
+|  | 1024 | **** | **** | **** | *\[Insert\]* | 
 
 #### Table 3: Boundary Test Size ($N = 2^{24} + 13 = 16,777,229$ elements)
 
@@ -101,12 +101,12 @@
 | **Variant 3: CUDA Prefetch** | 256 | **1.5808** | **1.5787** | **1.5913** | *\[Insert\]* | 
 |  | 512 | **2.4517** | **2.3791** | **2.5289** | *\[Insert\]* | 
 |  | 1024 | **4.0522** | **4.0455** | **4.0569** | *\[Insert\]* | 
-| **Variant 4: CUDA Prefetch + Page Creation** | 256 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 512 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 1024 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-| **Variant 5: CUDA Prefetch + Page + MemAdvise** | 256 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 512 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 1024 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
+| **Variant 4: CUDA Prefetch + Page Creation** | 256 | **** | **** | **** | *\[Insert\]* | 
+|  | 512 | **** | **** | **** | *\[Insert\]* | 
+|  | 1024 | **** | **** | **** | *\[Insert\]* | 
+| **Variant 5: CUDA Prefetch + Page + MemAdvise** | 256 | **** | **** | **** | *\[Insert\]* | 
+|  | 512 | **** | **** | **** | *\[Insert\]* | 
+|  | 1024 | **** | **** | **** | *\[Insert\]* | 
 
 ## 2. Program Output & Profiling Screenshots
 
