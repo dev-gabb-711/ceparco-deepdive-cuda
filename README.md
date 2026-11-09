@@ -54,10 +54,10 @@
 | **x86-64 Scalar Assembly** | N/A | **0.775200** | -- | -- | **1.82x** | 
 | **x86-64 SIMD XMM (128-bit)** | N/A | **0.704600** | -- | -- | **2.00x** | 
 | **x86-64 SIMD YMM (256-bit)** | N/A | **0.665100** | -- | -- | **2.12x** | 
-| **Variant 2: CUDA Unified (No Prefetch/Advise)** | 256 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 512 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 1024 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-| **Variant 3: CUDA Prefetch** | 256 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
+| **Variant 2: CUDA Unified (No Prefetch/Advise)** | 256 | **0.3546** | **0.2073** | **4.5559** | *\[Insert\]* | 
+|  | 512 | **0.3965** | **0.2599** | **4.2727** | *\[Insert\]* | 
+|  | 1024 | **0.5502** | **0.3368** | **6.6428** | *\[Insert\]* | 
+| **Variant 3: CUDA Prefetch** | 256 | **0.1556** | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
 |  | 512 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
 |  | 1024 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
 | **Variant 4: CUDA Prefetch + Page Creation** | 256 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
@@ -75,9 +75,9 @@
 | **x86-64 Scalar Assembly** | N/A | *\[Reference\]* | -- | -- | -- | 
 | **x86-64 SIMD XMM (128-bit)** | N/A | *\[Reference\]* | -- | -- | -- | 
 | **x86-64 SIMD YMM (256-bit)** | N/A | *\[Reference\]* | -- | -- | -- | 
-| **Variant 2: CUDA Unified (No Prefetch/Advise)** | 256 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 512 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 1024 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
+| **Variant 2: CUDA Unified (No Prefetch/Advise)** | 256 | **6.2073** | **3.5623** | **82.6165** | *\[Insert\]* | 
+|  | 512 | **4.7965** | **2.7451** | **63.9731** | *\[Insert\]* | 
+|  | 1024 | **5.1414** | **2.3982** | **84.5654** | *\[Insert\]* | 
 | **Variant 3: CUDA Prefetch** | 256 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
 |  | 512 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
 |  | 1024 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
@@ -95,9 +95,9 @@
 | **Variant 1: C Baseline (Host CPU)** | N/A | **26.773600** | -- | -- | **1.00x** | 
 | **x86-64 SIMD XMM (128-bit)** | N/A | *\[Reference\]* | -- | -- | -- | 
 | **x86-64 SIMD YMM (256-bit)** | N/A | *\[Reference\]* | -- | -- | -- | 
-| **Variant 2: CUDA Unified (No Prefetch/Advise)** | 256 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 512 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
-|  | 1024 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
+| **Variant 2: CUDA Unified (No Prefetch/Advise)** | 256 | **3.7318** | **1.4436** | **69.9654** | *\[Insert\]* | 
+|  | 512 | **3.8198** | **1.8071** | **61.9108** | *\[Insert\]* | 
+|  | 1024 | **5.0881** | **2.3956** | **83.0515** | *\[Insert\]* | 
 | **Variant 3: CUDA Prefetch** | 256 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
 |  | 512 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
 |  | 1024 | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | *\[Insert\]* | 
