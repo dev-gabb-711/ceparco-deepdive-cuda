@@ -27,6 +27,36 @@
 * In accordance with course policies, AI was not used in the development of any code in this Deep Dive project. It was only used in formatting assistance for the notebook
 * Tool used: Google Gemini
 
+## 0. Screenshots
+### A. Correctness
+#### Variant 2
+<img width="1350" height="354" alt="image" src="https://github.com/user-attachments/assets/54c6ec83-0d14-4ea6-95d8-ad995f7e1e31" />
+
+#### Variant 3
+<img width="1960" height="394" alt="image" src="https://github.com/user-attachments/assets/b8d74cb6-81a3-4008-ab1f-f7cb368a8550" />
+
+#### Variant 4
+<img width="1968" height="392" alt="image" src="https://github.com/user-attachments/assets/9b6bcb42-9229-42c1-acf2-d89d0f1cca53" />
+
+#### Variant 5
+<img width="2332" height="304" alt="image" src="https://github.com/user-attachments/assets/900a5cc7-1422-40e6-95e3-8cb394c8c5df" />
+
+### B. NSYS Results
+#### Variant 2
+<img width="2514" height="916" alt="image" src="https://github.com/user-attachments/assets/0d12ceb2-3576-4ef8-af6e-aab108659e0c" />
+<img width="2268" height="298" alt="image" src="https://github.com/user-attachments/assets/23d53e12-92aa-4949-ab8c-ee0825eb5c9d" />
+
+#### Variant 3
+<img width="2506" height="1016" alt="image" src="https://github.com/user-attachments/assets/389f27e5-d61a-4239-81cf-c17fc9528226" />
+<img width="2252" height="328" alt="image" src="https://github.com/user-attachments/assets/fabdf8b9-d184-4091-8de2-f28c8d90d655" />
+
+#### Variant 4
+<img width="2506" height="1024" alt="image" src="https://github.com/user-attachments/assets/9e3d657f-af33-4765-a230-724b8a70141d" />
+<img width="2258" height="330" alt="image" src="https://github.com/user-attachments/assets/9db8b54d-f814-4db3-b8f0-2d2c599ec4c5" />
+
+#### Variant 5
+<img width="2172" height="1090" alt="image" src="https://github.com/user-attachments/assets/f71e0567-4d7c-4e3f-8051-e9d620758673" />
+
 ## 1. Comparative Performance Results
 
 ### i. Historical SIMD Benchmark Dataset (x86-64 Architecture)
@@ -38,9 +68,6 @@
 | **1,048,576** ($2^{20}$) | Medium Vector | 1.152100 | 0.775200 | 0.704600 | 0.665100 | **1.73x** |
 | **67,108,864** ($2^{26}$) | Large Vector | 102.980500 | 91.830100 | 57.741100 | 57.148900 | **1.80x** |
 | **134,217,728** ($2^{27}$) | Max Memory Limit | 226.291400 | 126.422900 | **117.161300** | **128.957900** | **1.75x** ** |
-
-*\* Note: As highlighted in professor feedback, the $10.00\text{x}$ boundary speedup is calculated from low-resolution millisecond timings ($0.0010\text{ ms}$ vs $0.0001\text{ ms}$) and should be treated as an indicative rather than exact figure.*  
-*\*\* Note: At $N = 2^{27}$, SIMD YMM ($128.96\text{ ms}$) is slower than both SIMD XMM ($117.16\text{ ms}$) and x86-64 Scalar ($126.42\text{ ms}$) due to DRAM memory bandwidth saturation and cache line contention.*
 
 ---
 
